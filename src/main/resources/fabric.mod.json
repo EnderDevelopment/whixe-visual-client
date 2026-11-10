@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "whixe",
+  "version": "${version}",
+  "name": "WHIXE CLIENT",
+  "description": "A configurable client-side visual and music dashboard.",
+  "authors": ["WHIXE"],
+  "environment": "client",
+  "entrypoints": { "client": ["dev.whixe.client.WhixeClient"] },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
